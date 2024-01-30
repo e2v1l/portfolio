@@ -1,0 +1,260 @@
+html,
+body {
+  scroll-behavior: smooth;
+  /* для плавного перехода по странице */
+}
+body {
+  background: #212121;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  padding: 24px 0px 208px 0px;
+  background: url(./img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 1223px;
+  margin: 0px auto;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__left {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.header__logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.header__right {
+  display: flex;
+  gap: 32px;
+}
+.header__link {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.header__body {
+  margin-top: 209px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.header__title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 600;
+}
+.header__subtitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.header__social {
+  display: flex;
+  gap: 24px;
+}
+.social__link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.about {
+  padding: 106px 0px 124px 0px;
+}
+.about__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 580px;
+}
+.title {
+  color: #4c70ef;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2.4px;
+  margin-bottom: 12px;
+}
+.subtitle {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+}
+.about__info {
+  margin-top: 32px;
+}
+.about__text {
+  color: #b0adad;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.what {
+  padding: 124px 0px 120px 0px;
+}
+.what__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.what__body {
+  margin-top: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.what__item {
+  width: 480px;
+  height: 206px;
+  border-radius: 12px;
+  background: #292c36;
+}
+.what__row {
+  display: flex;
+  margin: 30px 0px 0px 44px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.what__img {
+  display: inline-flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  background: #38405a;
+}
+.what__name {
+  max-width: 219.152px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.what__text {
+  color: #b0adad;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 32px 24px 21px 24px;
+}
+.portf {
+  padding: 120px 0px;
+}
+.portf__top {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.portf__body {
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.portf__item {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 406px;
+  border-radius: 12px;
+  background: #292c36;
+  overflow: hidden;
+}
+
+.portf__img {
+  width: 380px;
+  height: 283px;
+}
+.portf__item1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 20px 24px;
+}
+.portf__title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.portf__link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  display: block;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background: #558fff;
+}
+.contact {
+  padding-bottom: 120px;
+}
+.contact__body {
+  border-radius: 12px;
+  background: #292c36;
+  height: 277px;
+  margin: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+}
+.contact__title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+}
+.contact__link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background: #558fff;
+}
+.foother {
+  background: #292c36;
+  padding: 44px 0px 32px 0px;
+}
+.foother__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.foother__title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.foother__text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
