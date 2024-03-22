@@ -187,6 +187,7 @@ body {
 .portf__img {
   width: 380px;
   height: 283px;
+  object-fit: cover;
 }
 .portf__item1 {
   display: flex;
